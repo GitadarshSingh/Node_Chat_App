@@ -1,5 +1,5 @@
-# Aura_Chat_App
-Aura Chat App
+# Node_Chat_App
+Node Chat App
 Real-time Chat Application
 Aura Chat App is a modern, responsive, and real-time chat application built to provide seamless communication. It supports direct messaging, group chats, file sharing, and offers a smooth user experience across various devices. This project serves as a comprehensive full-stack development example, showcasing best practices in both frontend and backend development.
 
