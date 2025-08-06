@@ -69,55 +69,6 @@ Bcrypt: A library to help you hash passwords.
 
 Nodemon: A tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 
-⚙️ Setup and Installation
-To get a local copy up and running, follow these simple steps.
-
-Prerequisites
-Before you begin, ensure you have the following installed on your machine:
-
-Node.js (LTS version recommended) & npm (comes with Node.js)
-
-Download from: https://nodejs.org/
-
-MongoDB Community Server
-
-Download from: https://www.mongodb.com/try/download/community
-
-Ensure you start the MongoDB server (mongod) before running the backend.
-
-1. Clone the repository
-git clone https://github.com/YourUsername/Aura_chat_app.git
-cd Aura_chat_app
-
-(Replace YourUsername with your actual GitHub username once uploaded)
-
-2. Backend Setup
-Navigate to the server directory, install dependencies, and start the server.
-
-cd server
-npm install
-npm run start:dev # Or `npm start` for production
-
-Note: Ensure your server/package.json has a script like "start:dev": "nodemon index.js" or similar for development.
-
-3. Frontend Setup
-Open a new terminal window, navigate to the client directory, install dependencies, and start the development server.
-
-cd client
-npm install
-npm run dev
-
-This will typically open your application in your browser at http://localhost:5173 (or a similar port).
-
-📦 Deployment
-The original tutorial demonstrated deployment on Hostinger VPS. For production, you would typically build the client assets and then serve them from your Node.js server or a separate static hosting service.
-
-Building Client for Production
-cd client
-npm run build
-
-This command creates a dist folder in your client directory, containing the optimized static assets. You can then configure your Node.js server to serve these files.
-
 
 
 🤝 Contributing
